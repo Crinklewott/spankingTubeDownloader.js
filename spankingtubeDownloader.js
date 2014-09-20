@@ -5,12 +5,10 @@
 // @include       http://www.spankingtube.com/video/*
 // ==/UserScript==
 
-$('.video_description').append($('<a />',{
-  style:"cursor:pointer"
-}).click(function(){
-  $.get("http://www.spankingtube.com/media/player/config_embed.php?vkey=" +
-	/\/(\d+)\//.exec(window.location.href)[1], function(dat){
-	  location.replace((dat.querySelector("hd") || dat.querySelector("src"))
-			   .textContent);
-	});
+var vkey = "http://www.spankingtube.com/media/player/config_embed.php?vkey=";
+
+$('.video_description').append($('<a />',{style:"cursor:pointer"}).click(function(){
+  $.get(vkey + /\/(\d+)\//.exec(location.href)[1], function(dat){
+    location.replace((dat.querySelector("hd") || dat.querySelector("src")).textContent);
+  });
 }).text("Download"));
