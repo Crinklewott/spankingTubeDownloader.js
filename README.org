@@ -1,5 +1,3 @@
-spankingTubeDownloader.js
-
 spankingTubeDownloader.js is a userscript that puts a download button
 on [[http://www.spankingtube.com][Spanking Tube]] video pages just below the description.
 
