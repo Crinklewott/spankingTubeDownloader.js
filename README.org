@@ -33,7 +33,7 @@ installed as detailed in [[Requirements]]. (If you need any, of course..!)
 
 ** Opera 10-12.5
 1) Visit [[https://raw.githubusercontent.com/thingywhat/spankingTubeDownloader.js/master/spankingTubeDownloader.js][spankingTubeDownloader.js]].
-2) Save the script somewhere you'll remember as "spankingtube.user.js"
+2) Save the script somewhere you'll remember.
 3) Navigate Opera -> Settings -> Preferences -> Advanced -> Content ->
    JavaScript Options
 4) Point the "User JavaScript folder" to the folder containing the
