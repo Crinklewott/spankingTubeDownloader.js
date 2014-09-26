@@ -19,7 +19,7 @@ It is also very likely to work with Google Chrome mobile with
 
 * Installation
 Depending on your browser, ensure you have the proper extensions
-installed as detailed in [[Requirements]]. (If you need any, of course..!)
+installed as detailed in Requirements. (If you need any, of course..!)
 
 ** Firefox
 1) Copy the full contents of [[https://raw.githubusercontent.com/thingywhat/spankingTubeDownloader.js/master/spankingTubeDownloader.user.js][spankingTubeDownloader.user.js]]
