@@ -10,9 +10,9 @@ videos.
 This script should work the following browser versions:
 
 - Pretty much any version of Firefox that can use [[https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/][Greasemonkey]].
-- Google Chrome, Chromuim, and Opera 15+ with [[https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en][Tampermonkey]].
-- With the built-in userscript capabilities of Opera 10 to Opera
-  12.16.
+- With the built-in userscript capabilities of Opera 10 to 12.16,
+  Google Chrome, or Chromium.
+- With [[https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en][Tampermonkey]] for Opera 15+.
 
 It is also very likely to work with Google Chrome mobile with
 [[https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en][Tampermonkey]], but this has not been tested.
@@ -22,8 +22,8 @@ Depending on your browser, ensure you have the proper extensions
 installed as detailed in [[Requirements]]. (If you need any, of course..!)
 
 ** Firefox
-1) Copy the full contents of [[https://raw.githubusercontent.com/thingywhat/spankingTubeDownloader.js/master/spankingTubeDownloader.js][spankingTubeDownloader.js]] (Greasemonkey
-   lets you add new scripts from your clipboard)
+1) Copy the full contents of [[https://raw.githubusercontent.com/thingywhat/spankingTubeDownloader.js/master/spankingTubeDownloader.user.js][spankingTubeDownloader.user.js]]
+   (Greasemonkey lets you add new scripts from your clipboard)
 2) Click the down arrow on the Greasemonkey icon on your
    installation. This should pop up a drop-down menu
 3) Click "New User Script"
@@ -32,7 +32,7 @@ installed as detailed in [[Requirements]]. (If you need any, of course..!)
 6) Viola! You now have Spanking Tube download links
 
 ** Opera 10-12.5
-1) Visit [[https://raw.githubusercontent.com/thingywhat/spankingTubeDownloader.js/master/spankingTubeDownloader.js][spankingTubeDownloader.js]].
+1) Visit [[https://raw.githubusercontent.com/thingywhat/spankingTubeDownloader.js/master/spankingTubeDownloader.user.js][spankingTubeDownloader.user.js]].
 2) Save the script somewhere you'll remember.
 3) Navigate Opera -> Settings -> Preferences -> Advanced -> Content ->
    JavaScript Options
@@ -40,8 +40,15 @@ installed as detailed in [[Requirements]]. (If you need any, of course..!)
    script
 5) You should now have download links. Congrats~!
 
-** Chrome, Chromium, Opera 15+
-1) Copy the full contents of [[https://raw.githubusercontent.com/thingywhat/spankingTubeDownloader.js/master/spankingTubeDownloader.js][spankingTubeDownloader.js]]
+** Chrome, Chromium
+1) Download [[https://raw.githubusercontent.com/thingywhat/spankingTubeDownloader.js/master/spankingTubeDownloader.user.js][spankingTubeDownloader.user.js]] somewhere you'll remember...
+2) Visit Menu -> Tools -> Extensions
+3) Drag the script you downloaded onto the window.
+4) Accept the script install.
+5) Have fun!
+
+** Opera 15+
+1) Copy the full contents of [[https://raw.githubusercontent.com/thingywhat/spankingTubeDownloader.js/master/spankingTubeDownloader.user.js][spankingTubeDownloader.user.js]]
 2) Click the Tampermonkey button on your install.
 3) Select "Add a new script..."
 4) Paste the script into the Editor window.
