@@ -8,10 +8,10 @@
 // @grant         none
 // ==/UserScript==
 
-$('.video_description').append($('<a />',{style:"cursor:pointer"}).click(function(){
-  var vkey = "//www.spankingtube.com/media/player/config_embed.php?vkey=";    
+$('#embed_video > a').unbind('click').removeAttr('href').click(function(){
+  var vkey = "//www.spankingtube.com/media/player/config_embed.php?vkey=";
   $.get(vkey + /\/(\d+)\//.exec(location.href)[1], function(dat){
     location.replace(dat.querySelector("hd").textContent ||
 		     dat.querySelector("src").textContent);
   });
-}).text("Download"));
+}).find('span').text("Download");
